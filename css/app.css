@@ -10,7 +10,7 @@ html {
   font-family: "Roboto", sans-serif;
   line-height: 2.2rem;
   scroll-behavior: smooth;
-  background-color: #19232d;
+  background-color: #e0e0e0;
 }
 
 img {
@@ -104,6 +104,7 @@ li {
   flex-direction: row;
 }
 .header__logo {
+  width: 60px;
   height: 60px;
   display: flex;
   align-items: center;
@@ -250,6 +251,7 @@ li {
   outline: none;
   background-color: #252525;
   padding: 10px;
+  color: #fff;
 }
 .search__btn {
   background-color: #fff;

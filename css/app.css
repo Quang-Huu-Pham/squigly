@@ -39,7 +39,7 @@ li {
 }
 
 .mt {
-  margin-top: 10rem;
+  margin-top: 50px;
 }
 
 .mb {
@@ -113,6 +113,7 @@ li {
 }
 .header__logo-img {
   height: 100%;
+  object-fit: cover;
 }
 .header__logo span {
   font-size: 3rem;
@@ -179,7 +180,7 @@ li {
 .header__category {
   display: none;
   position: absolute;
-  top: 45px;
+  top: 30px;
   right: 0;
   background-color: #3b5998;
   min-width: 250px;
@@ -234,6 +235,27 @@ li {
 }
 .header__category-link:hover {
   background-color: #001;
+}
+
+.search {
+  margin-top: 100px;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+.search__input {
+  border: 1px solid #ccc;
+  outline: none;
+  background-color: #252525;
+  padding: 10px;
+}
+.search__btn {
+  background-color: #fff;
+  padding: 8px;
+  border: none;
+  outline: none;
 }
 
 .slider {
@@ -348,6 +370,7 @@ li {
   text-align: center;
   background-color: #141414;
   margin-bottom: 54px;
+  cursor: pointer;
 }
 .movie__more:hover {
   opacity: 0.8;
@@ -410,6 +433,27 @@ li {
   width: 80px;
   margin-top: 12px;
 }
+.bar__tag {
+  padding-top: 20px;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+  border: 1px solid #ccc;
+}
+.bar__tag-link {
+  font-size: 1.4rem;
+  background-color: #333;
+  text-decoration: underline;
+  color: #fff;
+  padding: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+.bar__tag-link:hover {
+  opacity: 0.8;
+}
 
 .footer {
   position: relative;
@@ -462,6 +506,10 @@ li {
   .slider {
     display: block;
   }
+
+  .search--mobie {
+    display: none;
+  }
 }
 @media (max-width: 63.9375em) {
   .bar {
@@ -469,6 +517,11 @@ li {
   }
 
   .header__menu {
+    display: none;
+  }
+}
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+  .search--mobie {
     display: none;
   }
 }
@@ -498,6 +551,15 @@ li {
 
   .movie__list {
     justify-content: center;
+    margin-left: -34px;
+  }
+
+  .movie__item {
+    margin-left: 34px;
+  }
+
+  .movie__item-name {
+    position: initial;
   }
 
   .footer__inner {

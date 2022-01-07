@@ -5,6 +5,9 @@
     .slider {
         display: block;
     }
+    .search--mobie {
+        display: none;
+    }
 }
 
 @media (max-width: 63.9375em) {
@@ -16,7 +19,11 @@
     }
 }
 
-@media (min-width: 46.25em) and (max-width: 63.9375em) {}
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+    .search--mobie {
+        display: none;
+    }
+}
 
 @media (max-width: 46.8125em) {
     .header__search {
@@ -36,12 +43,15 @@
     }
     .movie__list {
         justify-content: center;
-        // margin-left: 0px;
+        margin-left: -34px;
     }
-    // .movie__item {
-    //     width: calc(100% / 3);
-    //     margin-left: 0px;
-    // }
+    .movie__item {
+        // width: calc(100% / 3);
+        margin-left: 34px;
+    }
+    .movie__item-name {
+        position: initial;
+    }
     .footer__inner {
         flex-direction: column;
     }

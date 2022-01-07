@@ -18,6 +18,7 @@
         @include flexbox(center, space-between);
         &-img {
             height: 100%;
+            object-fit: cover;
         }
         span {
             font-size: 3rem;
@@ -83,7 +84,7 @@
     &__category {
         display: none;
         position: absolute;
-        top: 45px;
+        top: 30px;
         right: 0;
         background-color: $blue-color;
         min-width: 250px;
@@ -140,6 +141,23 @@
                 // border-radius: 20px 0 0 20px;
             }
         }
+    }
+}
+
+.search {
+    margin-top: 100px;
+    @include flexbox(stretch, center);
+    &__input {
+        border: 1px solid #ccc;
+        outline: none;
+        background-color: rgb(37, 37, 37);
+        padding: 10px;
+    }
+    &__btn {
+        background-color: #fff;
+        padding: 8px;
+        border: none;
+        outline: none;
     }
 }
 
@@ -242,6 +260,7 @@
         text-align: center;
         background-color: rgb(20, 20, 20);
         margin-bottom: 54px;
+        cursor: pointer;
         &:hover {
             opacity: 0.8;
         }
@@ -299,6 +318,23 @@
         &-evaluate {
             width: 80px;
             margin-top: 12px;
+        }
+    }
+    &__tag {
+        padding-top: 20px;
+        @include flexbox(stretch, space-between, wrap);
+        border: 1px solid #ccc;
+        &-link {
+            font-size: $fsz-s;
+            background-color: #333;
+            text-decoration: underline;
+            color: $while-color;
+            padding: 5px;
+            border: 1px solid #ccc;
+            margin-bottom: 10px;
+            &:hover {
+                opacity: 0.8;
+            }
         }
     }
 }

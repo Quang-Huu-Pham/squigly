@@ -22,6 +22,10 @@ a {
   text-decoration: none;
 }
 
+li {
+  list-style-type: none;
+}
+
 .container {
   margin: 0 auto;
   max-width: 1210px;
@@ -493,7 +497,7 @@ a {
   }
 
   .movie__list {
-    justify-content: space-between;
+    justify-content: center;
   }
 
   .footer__inner {

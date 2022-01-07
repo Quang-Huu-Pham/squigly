@@ -35,8 +35,13 @@
         }
     }
     .movie__list {
-        justify-content: space-between;
+        justify-content: center;
+        // margin-left: 0px;
     }
+    // .movie__item {
+    //     width: calc(100% / 3);
+    //     margin-left: 0px;
+    // }
     .footer__inner {
         flex-direction: column;
     }

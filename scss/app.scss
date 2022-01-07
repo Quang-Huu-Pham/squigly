@@ -17,7 +17,6 @@
         @include size(60px);
         @include flexbox(center, space-between);
         &-img {
-            height: 100%;
             object-fit: cover;
         }
         span {

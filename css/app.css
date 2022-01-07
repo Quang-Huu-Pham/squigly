@@ -113,7 +113,6 @@ li {
   flex-direction: row;
 }
 .header__logo-img {
-  height: 100%;
   object-fit: cover;
 }
 .header__logo span {

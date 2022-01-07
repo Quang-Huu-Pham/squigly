@@ -1,0 +1,43 @@
+@media (min-width: 64em) {
+    .btn--mobie {
+        display: none;
+    }
+    .slider {
+        display: block;
+    }
+}
+
+@media (max-width: 63.9375em) {
+    .bar {
+        display: none;
+    }
+    .header__menu {
+        display: none;
+    }
+}
+
+@media (min-width: 46.25em) and (max-width: 63.9375em) {}
+
+@media (max-width: 46.8125em) {
+    .header__search {
+        display: none;
+    }
+    .btn--mobie {
+        display: block;
+    }
+    .slider {
+        display: none;
+    }
+    .movie__heading {
+        @include flexbox(flex-start, flex-start, nowrap, column-reverse);
+        .btn {
+            margin: 10px 6px 30px !important;
+        }
+    }
+    .movie__list {
+        justify-content: space-between;
+    }
+    .footer__inner {
+        flex-direction: column;
+    }
+}

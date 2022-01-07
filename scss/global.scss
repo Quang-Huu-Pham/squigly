@@ -1,0 +1,115 @@
+@import "./variable.scss";
+@mixin flexbox($align: flex-start, $justify: flex-start, $wrap: nowrap, $dicor: row) {
+    display: flex;
+    align-items: $align;
+    justify-content: $justify;
+    flex-wrap: $wrap;
+    flex-direction: $dicor;
+}
+
+@mixin size($width: 0, $height: $width) {
+    width: $width;
+    height: $height;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+    line-height: 2.2rem;
+    scroll-behavior: smooth;
+    background-color: #19232d;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1210px;
+    width: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.ml {
+    margin-left: 30px;
+}
+
+.mt {
+    margin-top: 10rem;
+}
+
+.mb {
+    margin-bottom: 3.5rem;
+}
+
+.btn {
+    cursor: pointer;
+    padding: 1.4rem 1.5rem;
+    font-size: $fsz-m;
+    text-align: center;
+    outline: none;
+    display: inline-block;
+    border: none;
+    transition: all 0.25s linear;
+    &--primary {
+        background-color: $while-color;
+    }
+    &--rounded {
+        border-radius: 5rem;
+    }
+    &--border {
+        border: 1px solid rgb(255, 255, 255);
+    }
+    &--mobie {
+        font-size: $fsz-l;
+        color: $while-color;
+    }
+    &:hover {
+        box-shadow: 0 0px 20px -7px rgba(255, 255, 255, 0.808);
+    }
+}
+
+// .title {
+//     font-size: 5rem;
+//     color: #070707;
+//     &--left {
+//         border-left: 3px solid $primary-color;
+//         padding-left: 2rem;
+//     }
+// }
+// @keyframes slideUp {
+//     from {
+//         opacity: 0;
+//         transform: translateX(50%);
+//     }
+//     to {
+//         opacity: 1;
+//         transform: translateX(0);
+//     }
+//     // 100% {
+//     //     opacity: 1;
+//     //     transform: translateX(0);
+//     // }
+// }
+@keyframes headerSubNav {
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
+}

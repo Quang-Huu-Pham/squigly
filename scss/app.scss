@@ -239,26 +239,26 @@
             padding: 10px;
             text-align: center;
             font-size: $fsz-m;
-            color: $while-color;
+            color: rgb(20, 20, 20);
             white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
-            background-color: rgba(0, 0, 0, 0.582);
+            background-color: rgba(68, 187, 255, 0.582);
             border-radius: 0 0 5px 5px;
             transition: all 0.25s ease;
         }
         &-evaluate {
             margin-top: 12px;
-            width: 60px;
+            width: 70px;
         }
     }
     &__more {
         display: block;
         font-size: $fsz-m;
         padding: 14px;
-        color: $while-color;
+        // color: $while-color;
         text-align: center;
-        background-color: rgb(20, 20, 20);
+        background-color: rgb(245, 245, 245);
         margin-bottom: 54px;
         cursor: pointer;
         &:hover {

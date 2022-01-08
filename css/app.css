@@ -10,7 +10,7 @@ html {
   font-family: "Roboto", sans-serif;
   line-height: 2.2rem;
   scroll-behavior: smooth;
-  background-color: #19232d;
+  background-color: #18191a;
 }
 
 img {
@@ -351,25 +351,24 @@ li {
   padding: 10px;
   text-align: center;
   font-size: 1.6rem;
-  color: #fff;
+  color: #141414;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  background-color: rgba(0, 0, 0, 0.582);
+  background-color: rgba(68, 187, 255, 0.582);
   border-radius: 0 0 5px 5px;
   transition: all 0.25s ease;
 }
 .movie__item-evaluate {
   margin-top: 12px;
-  width: 60px;
+  width: 70px;
 }
 .movie__more {
   display: block;
   font-size: 1.6rem;
   padding: 14px;
-  color: #fff;
   text-align: center;
-  background-color: #141414;
+  background-color: whitesmoke;
   margin-bottom: 54px;
   cursor: pointer;
 }

@@ -62,12 +62,12 @@
         &-item {
             margin-left: 25px;
             position: relative;
-            transition: all 0.25s ease-in-out;
+            transition: all 0.25s linear;
             &--sub:hover {
                 .header__category {
                     display: flex;
                     transform-origin: 90% top;
-                    animation: headerSubNav 0.2s ease-in-out;
+                    animation: headerSubNav 0.2s linear;
                 }
             }
         }
@@ -165,9 +165,13 @@
     @include flexbox(center, space-between);
     margin-top: 78px;
     &__img {
-        height: 530px;
+        height: 545px;
         object-fit: cover;
     }
+}
+
+.content {
+    margin-top: 110px;
 }
 
 .movie {
@@ -197,13 +201,31 @@
         margin-bottom: 50px;
         margin-left: 56px;
         box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
-        transition: all 0.25s ease-in;
+        transition: all 0.35s ease-in;
         // overflow: hidden;
+        &-name {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            display: block;
+            padding: 10px;
+            text-align: center;
+            font-size: $fsz-m;
+            color: rgb(255, 255, 255);
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            background-color: rgba(68, 187, 255, 0.582);
+            border-radius: 0 0 5px 5px;
+            transition: all 0.3s linear;
+        }
         &:hover {
             transform: scale(1.1);
             box-shadow: 0 10px 35px -15px rgb(30, 255, 60);
             .movie__item-name {
-                // bottom: -23px;
+                // bottom: -20px;
+                box-shadow: 0 -10px 15px rgba(0, 0, 0, 0.5);
                 white-space: inherit;
             }
             .movie__item-avt {
@@ -229,23 +251,6 @@
             background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             box-shadow: 2px 2px 3px 0px rgba(0 0 0 /75%);
             z-index: 1;
-        }
-        &-name {
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            display: block;
-            padding: 10px;
-            text-align: center;
-            font-size: $fsz-m;
-            color: rgb(20, 20, 20);
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
-            background-color: rgba(68, 187, 255, 0.582);
-            border-radius: 0 0 5px 5px;
-            transition: all 0.25s ease;
         }
         &-evaluate {
             margin-top: 12px;

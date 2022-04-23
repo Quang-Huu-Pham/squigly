@@ -162,12 +162,12 @@ li {
 .header__menu-item {
   margin-left: 25px;
   position: relative;
-  transition: all 0.25s ease-in-out;
+  transition: all 0.25s linear;
 }
 .header__menu-item--sub:hover .header__category {
   display: flex;
   transform-origin: 90% top;
-  animation: headerSubNav 0.2s ease-in-out;
+  animation: headerSubNav 0.2s linear;
 }
 .header__menu-link {
   font-size: 1.6rem;
@@ -268,8 +268,12 @@ li {
   margin-top: 78px;
 }
 .slider__img {
-  height: 530px;
+  height: 545px;
   object-fit: cover;
+}
+
+.content {
+  margin-top: 110px;
 }
 
 .movie {
@@ -312,13 +316,31 @@ li {
   margin-bottom: 50px;
   margin-left: 56px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
-  transition: all 0.25s ease-in;
+  transition: all 0.35s ease-in;
+}
+.movie__item-name {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: block;
+  padding: 10px;
+  text-align: center;
+  font-size: 1.6rem;
+  color: white;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  background-color: rgba(68, 187, 255, 0.582);
+  border-radius: 0 0 5px 5px;
+  transition: all 0.3s linear;
 }
 .movie__item:hover {
   transform: scale(1.1);
   box-shadow: 0 10px 35px -15px #1eff3c;
 }
 .movie__item:hover .movie__item-name {
+  box-shadow: 0 -10px 15px rgba(0, 0, 0, 0.5);
   white-space: inherit;
 }
 .movie__item:hover .movie__item-avt img {
@@ -341,23 +363,6 @@ li {
   background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.75);
   z-index: 1;
-}
-.movie__item-name {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  display: block;
-  padding: 10px;
-  text-align: center;
-  font-size: 1.6rem;
-  color: #141414;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  background-color: rgba(68, 187, 255, 0.582);
-  border-radius: 0 0 5px 5px;
-  transition: all 0.25s ease;
 }
 .movie__item-evaluate {
   margin-top: 12px;

@@ -1,67 +1,59 @@
 {
-  "allMovie": [
-    {
-      "thumbnail": "https://static.ssphim.net/static/5fe2d564b3fa6403ffa11d1c/621cd248ec7a8fb5d7aa9254_cong-to-vien-quan-su-doberman.jpeg",
-      "category": "Phim Hành Động",
-      "name": "Công Tố Viên Quân Sự Doberman - Military Prosecutor Doberman (2022)",
-      "evaluate": "http://static.ssphim.net/static/5fe2d564b3fa6403ffa11d1c/5fe2d564b3fa647a78a1222c_4-sao.png",
-      "id": 1
-    },
-    {
-      "thumbnail": "https://static.ssphim.net/static/5fe2d564b3fa6403ffa11d1c/620e5a276d252fd8e7ec541e_clifford.jpg",
-      "category": "Phim Tình Cảm",
-      "name": "Clifford Chú Chó Đỏ Khổng Lồ - Clifford The Big Red Dog",
-      "evaluate": "http://static.ssphim.net/static/5fe2d564b3fa6403ffa11d1c/5fe2d564b3fa647a78a1222c_4-sao.png",
-      "id": 2
-    },
-    {
-      "thumbnail": "https://static.ssphim.net/static/5fe2d564b3fa6403ffa11d1c/623f0c2ea26c97ef82eb5160_quai-xe.jpg",
-      "category": "Phim Hành Động",
-      "name": "Quái Xế Giao Hàng - Special Delivery",
-      "evaluate": "http://static.ssphim.net/static/5fe2d564b3fa6403ffa11d1c/5fe2d564b3fa647a78a1222c_4-sao.png",
-      "id": 3
-    },
-    {
-      "thumbnail": "https://static.ssphim.net/static/5fe2d564b3fa6403ffa11d1c/622b768844b2935de4409354_khong-con-nha.jpg",
-      "category": "Phim Hành Động",
-      "name": "Người Nhện: Không Còn Nhà - Spider-Man: No Way Home (2021)",
-      "evaluate": "http://static.ssphim.net/static/5fe2d564b3fa6403ffa11d1c/5fe2d564b3fa647a78a1222c_4-sao.png",
-      "id": 4
-    },
-    {
-      "thumbnail": "https://static.ssphim.net/static/5fe2d564b3fa6403ffa11d1c/61e271171e3d2a0599b92355_hotel.jpg",
-      "category": "Phim Hoạt Hình",
-      "name": "Khách Sạn Huyền Bí 4: Ma Cà Rồng Biến Hình (2022)",
-      "evaluate": "http://static.ssphim.net/static/5fe2d564b3fa6403ffa11d1c/5fe2d564b3fa647a78a1222c_4-sao.png",
-      "id": 5
-    },
-    {
-      "thumbnail": "https://static.ssphim.net/static/5fe2d564b3fa6403ffa11d1c/61d04fd8074e58399eb31260_biet-doi-san-ma.jpg",
-      "category": "Phim Hành Động",
-      "name": "Biệt Đội Săn Ma: Chuyển Kiếp - Ghostbusters: Afterlife (2021)",
-      "evaluate": "http://static.ssphim.net/static/5fe2d564b3fa6403ffa11d1c/5fe2d564b3fa647a78a1222c_4-sao.png",
-      "id": 6
-    },
-    {
-      "thumbnail": "https://static.ssphim.net/static/5fe2d564b3fa6403ffa11d1c/61c3287bd7108299a7777b01_resident.jpg",
-      "category": "Phim Kinh Dị",
-      "name": "Resident Evil: Quỷ Dữ Trỗi Dậy - Resident Evil: Welcome To Raccoon City",
-      "evaluate": "http://static.ssphim.net/static/5fe2d564b3fa6403ffa11d1c/5fe2d564b3fa647a78a1222c_4-sao.png",
-      "id": 7
-    },
-    {
-      "thumbnail": "https://static.ssphim.net/static/5fe2d564b3fa6403ffa11d1c/624da0d15bee2c5910509c10_snak.jpg",
-      "category": "phim hanh dong",
-      "name": "Chấp Tất Cả - Sanak (2021)",
-      "evaluate": "http://static.ssphim.net/static/5fe2d564b3fa6403ffa11d1c/5fe2d564b3fa647a78a1222c_4-sao.png",
-      "id": 8
-    },
-    {
-      "thumbnail": "https://static.ssphim.net/static/5fe2d564b3fa6403ffa11d1c/623f0c2ea26c97ef82eb5160_quai-xe.jpg",
-      "category": "Phim Tình Cảm",
-      "name": "Clifford Chú Chó Đỏ Khổng Lồ - Clifford The Big Red Dog",
-      "evaluate": "http://static.ssphim.net/static/5fe2d564b3fa6403ffa11d1c/5fe2d564b3fa647a78a1222c_4-sao.png",
-      "id": 9
-    }
-  ]
+    "allMovie": [{
+            "thumbnail": "https://static.ssphim.net/static/5fe2d564b3fa6403ffa11d1c/621cd248ec7a8fb5d7aa9254_cong-to-vien-quan-su-doberman.jpeg",
+            "category": "Phim Hành Động",
+            "name": "Công Tố Viên Quân Sự Doberman - Military Prosecutor Doberman (2022)",
+            "evaluate": "http://static.ssphim.net/static/5fe2d564b3fa6403ffa11d1c/5fe2d564b3fa647a78a1222c_4-sao.png",
+            "id": 1
+        },
+        {
+            "thumbnail": "https://static.ssphim.net/static/5fe2d564b3fa6403ffa11d1c/620e5a276d252fd8e7ec541e_clifford.jpg",
+            "category": "Phim Tình Cảm",
+            "name": "Clifford Chú Chó Đỏ Khổng Lồ - Clifford The Big Red Dog",
+            "evaluate": "http://static.ssphim.net/static/5fe2d564b3fa6403ffa11d1c/5fe2d564b3fa647a78a1222c_4-sao.png",
+            "id": 2
+        },
+        {
+            "thumbnail": "https://static.ssphim.net/static/5fe2d564b3fa6403ffa11d1c/623f0c2ea26c97ef82eb5160_quai-xe.jpg",
+            "category": "Phim Hành Động",
+            "name": "Quái Xế Giao Hàng - Special Delivery",
+            "evaluate": "http://static.ssphim.net/static/5fe2d564b3fa6403ffa11d1c/5fe2d564b3fa647a78a1222c_4-sao.png",
+            "id": 3
+        },
+        {
+            "thumbnail": "https://static.ssphim.net/static/5fe2d564b3fa6403ffa11d1c/622b768844b2935de4409354_khong-con-nha.jpg",
+            "category": "Phim Hành Động",
+            "name": "Người Nhện: Không Còn Nhà - Spider-Man: No Way Home (2021)",
+            "evaluate": "http://static.ssphim.net/static/5fe2d564b3fa6403ffa11d1c/5fe2d564b3fa647a78a1222c_4-sao.png",
+            "id": 4
+        },
+        {
+            "thumbnail": "https://static.ssphim.net/static/5fe2d564b3fa6403ffa11d1c/61e271171e3d2a0599b92355_hotel.jpg",
+            "category": "Phim Hoạt Hình",
+            "name": "Khách Sạn Huyền Bí 4: Ma Cà Rồng Biến Hình (2022)",
+            "evaluate": "http://static.ssphim.net/static/5fe2d564b3fa6403ffa11d1c/5fe2d564b3fa647a78a1222c_4-sao.png",
+            "id": 5
+        },
+        {
+            "thumbnail": "https://static.ssphim.net/static/5fe2d564b3fa6403ffa11d1c/61d04fd8074e58399eb31260_biet-doi-san-ma.jpg",
+            "category": "Phim Hành Động",
+            "name": "Biệt Đội Săn Ma: Chuyển Kiếp - Ghostbusters: Afterlife (2021)",
+            "evaluate": "http://static.ssphim.net/static/5fe2d564b3fa6403ffa11d1c/5fe2d564b3fa647a78a1222c_4-sao.png",
+            "id": 6
+        },
+        {
+            "thumbnail": "https://static.ssphim.net/static/5fe2d564b3fa6403ffa11d1c/61c3287bd7108299a7777b01_resident.jpg",
+            "category": "Phim Kinh Dị",
+            "name": "Resident Evil: Quỷ Dữ Trỗi Dậy - Resident Evil: Welcome To Raccoon City",
+            "evaluate": "http://static.ssphim.net/static/5fe2d564b3fa6403ffa11d1c/5fe2d564b3fa647a78a1222c_4-sao.png",
+            "id": 7
+        },
+        {
+            "thumbnail": "https://static.ssphim.net/static/5fe2d564b3fa6403ffa11d1c/624da0d15bee2c5910509c10_snak.jpg",
+            "category": "phim hanh dong",
+            "name": "Chấp Tất Cả - Sanak (2021)",
+            "evaluate": "http://static.ssphim.net/static/5fe2d564b3fa6403ffa11d1c/5fe2d564b3fa647a78a1222c_4-sao.png",
+            "id": 8
+        }
+    ]
 }

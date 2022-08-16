@@ -5,11 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./css/reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/reset.css">
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" type="text/css" href="./css/slickslider.css">
@@ -27,64 +27,27 @@
                         <span>Squigly</span>
                     </a>
 
-                    <div class="header__search">
-                        <input class="header__search-box" type="search" id="search" placeholder="Search..." />
-                        <button class="header__search-btn">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
-                            </svg>
-                        </button>
-                    </div>
-
                     <ul class="header__menu">
-                        <li class="header__menu-item header__menu-item--sub"><a class="header__menu-link" href="">Thể Loại<i class='bx bx-chevron-down'></i></a>
+                        <div class="header__search">
+                            <input class="header__search-box" type="search" id="search" placeholder="Search..." />
+                            <button class="header__search-btn">
+                                <i class='bx bx-search-alt-2'></i>
+                            </button>
+                        </div>
+
+                        <li class="header__menu-item header__menu-item--sub">
+                            <a class="header__menu-link" href="">Thể Loại<i class='bx bx-chevron-down'></i></a>
                             <nav class="header__category">
                                 <ul class="header__category-list">
-                                    <li class="header__category-item"><a class="header__category-link" href="">Khoa học-Viễn tưởng</a></li>
-                                    <li class="header__category-item"><a class="header__category-link" href="">Hài hước</a></li>
-                                    <li class="header__category-item"><a class="header__category-link" href="">Hành động</a></li>
-                                    <li class="header__category-item"><a class="header__category-link" href="">Võ Thuật</a></li>
-                                    <li class="header__category-item"><a class="header__category-link" href="">Kinh dị</a></li>
-                                    <li class="header__category-item"><a class="header__category-link" href="">Anime</a></li>
-                                    <li class="header__category-item"><a class="header__category-link" href="">Phưu lưu</a></li>
-                                    <li class="header__category-item"><a class="header__category-link" href="">Tâm lý</a></li>
+
                                 </ul>
                             </nav>
                         </li>
-                        <li class="header__menu-item header__menu-item--sub"><a class="header__menu-link" href="">Phim Bộ<i class='bx bx-chevron-down'></i></a>
+                        <li class="header__menu-item header__menu-item--sub">
+                            <a class="header__menu-link" href="">Phim Bộ<i class='bx bx-chevron-down'></i></a>
                             <nav class="header__category">
                                 <ul class="header__category-list">
-                                    <h3 class="header__category-title">Quốc Gia</h3>
-                                    <li class="header__category-item"><a class="header__category-link" href="">Khoa học-Viễn tưởng</a></li>
-                                    <li class="header__category-item"><a class="header__category-link" href="">Hài hước</a></li>
-                                    <li class="header__category-item"><a class="header__category-link" href="">Hành động</a></li>
-                                    <li class="header__category-item"><a class="header__category-link" href="">Võ Thuật</a></li>
-                                    <li class="header__category-item"><a class="header__category-link" href="">Kinh dị</a></li>
-                                    <li class="header__category-item"><a class="header__category-link" href="">Anime</a></li>
-                                    <li class="header__category-item"><a class="header__category-link" href="">Phưu lưu</a></li>
-                                    <li class="header__category-item"><a class="header__category-link" href="">Tâm lý</a></li>
-                                </ul>
-                                <ul class="header__category-list">
-                                    <h3 class="header__category-title">Thể Loại</h3>
-                                    <li class="header__category-item"><a class="header__category-link" href="">Khoa học-Viễn tưởng</a></li>
-                                    <li class="header__category-item"><a class="header__category-link" href="">Hài hước</a></li>
-                                    <li class="header__category-item"><a class="header__category-link" href="">Hành động</a></li>
-                                    <li class="header__category-item"><a class="header__category-link" href="">Võ Thuật</a></li>
-                                    <li class="header__category-item"><a class="header__category-link" href="">Kinh dị</a></li>
-                                    <li class="header__category-item"><a class="header__category-link" href="">Anime</a></li>
-                                    <li class="header__category-item"><a class="header__category-link" href="">Phưu lưu</a></li>
-                                    <li class="header__category-item"><a class="header__category-link" href="">Tâm lý</a></li>
-                                </ul>
-                                <ul class="header__category-list">
-                                    <h3 class="header__category-title">Xu Hướng</h3>
-                                    <li class="header__category-item"><a class="header__category-link" href="">Khoa học-Viễn tưởng</a></li>
-                                    <li class="header__category-item"><a class="header__category-link" href="">Hài hước</a></li>
-                                    <li class="header__category-item"><a class="header__category-link" href="">Hành động</a></li>
-                                    <li class="header__category-item"><a class="header__category-link" href="">Võ Thuật</a></li>
-                                    <li class="header__category-item"><a class="header__category-link" href="">Kinh dị</a></li>
-                                    <li class="header__category-item"><a class="header__category-link" href="">Anime</a></li>
-                                    <li class="header__category-item"><a class="header__category-link" href="">Phưu lưu</a></li>
-                                    <li class="header__category-item"><a class="header__category-link" href="">Tâm lý</a></li>
+
                                 </ul>
                             </nav>
                         </li>
@@ -95,17 +58,6 @@
                 </div>
             </div>
         </header>
-
-        <div class="container">
-            <div class="search search--mobie">
-                <input class="search__input" type="search" id="search" placeholder="Search..." />
-                <button class="search__btn">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
-                    </svg>
-                </button>
-            </div>
-        </div>
 
         <section class="slider">
             <a href="http"><img src="https://photo-cms-nghenhinvietnam.zadn.vn/Uploaded/trunghieu/2021_03_10/nowayhome_1__KWFF.jpg" alt="" class="slider__img"></a>
@@ -130,7 +82,7 @@
 
                         <ul id="all-movies" class="movie__list">
                         </ul>
-                        <div>
+                        <!-- <div>
                             <div>
                                 <label for="">Thumbnail</label>
                                 <input type="text" name="thumbnail" placeholder="URL">
@@ -149,11 +101,12 @@
                             </div>
                             <button class="btn btn-primary btn-create">Create</button>
                             <button class="btn btn-primary btn-save">Save</button>
-                        </div>
+                        </div> -->
                         <span class="movie__more">Xem Thêm <i class='bx bx-chevrons-right'></i></span>
 
                         <h2 class="movie__heading-title"><span>P</span>him Bộ Mới</h2>
                         <ul id="all-movies" class="movie__list">
+
                         </ul>
                         <span class="movie__more">Xem Thêm <i class='bx bx-chevrons-right'></i></span>
 
@@ -171,244 +124,12 @@
                     <div class="bar">
                         <h3 class="bar__title">Xem Nhiều Nhất</h3>
                         <ul class="bar__list">
-                            <li class="bar__item">
-                                <a class="bar__item-link" href="">
-                                    <img src="https://cdn.europosters.eu/image/750/posters/re-zero-key-art-i46586.jpg" alt="" class="bar__item-img">
-                                    <div class="bar__item-desc">
-                                        <b class="bar__item-name">Re:Zero</b>
-                                        <img src="http://static.ssphim.net/static/5fe2d564b3fa6403ffa11d1c/5fe2d564b3fa647a78a1222c_4-sao.png" alt="" class="bar__item-evaluate">
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="bar__item">
-                                <a class="bar__item-link" href="">
-                                    <img src="https://cdn.europosters.eu/image/750/posters/re-zero-key-art-i46586.jpg" alt="" class="bar__item-img">
-                                    <div class="bar__item-desc">
-                                        <b class="bar__item-name">Re:Zero</b>
-                                        <img src="http://static.ssphim.net/static/5fe2d564b3fa6403ffa11d1c/5fe2d564b3fa647a78a1222c_4-sao.png" alt="" class="bar__item-evaluate">
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="bar__item">
-                                <a class="bar__item-link" href="">
-                                    <img src="https://cdn.europosters.eu/image/750/posters/re-zero-key-art-i46586.jpg" alt="" class="bar__item-img">
-                                    <div class="bar__item-desc">
-                                        <b class="bar__item-name">Re:Zero</b>
-                                        <img src="http://static.ssphim.net/static/5fe2d564b3fa6403ffa11d1c/5fe2d564b3fa647a78a1222c_4-sao.png" alt="" class="bar__item-evaluate">
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="bar__item">
-                                <a class="bar__item-link" href="">
-                                    <img src="https://cdn.europosters.eu/image/750/posters/re-zero-key-art-i46586.jpg" alt="" class="bar__item-img">
-                                    <div class="bar__item-desc">
-                                        <b class="bar__item-name">Re:Zero</b>
-                                        <img src="http://static.ssphim.net/static/5fe2d564b3fa6403ffa11d1c/5fe2d564b3fa647a78a1222c_4-sao.png" alt="" class="bar__item-evaluate">
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="bar__item">
-                                <a class="bar__item-link" href="">
-                                    <img src="https://cdn.europosters.eu/image/750/posters/re-zero-key-art-i46586.jpg" alt="" class="bar__item-img">
-                                    <div class="bar__item-desc">
-                                        <b class="bar__item-name">Re:Zero</b>
-                                        <img src="http://static.ssphim.net/static/5fe2d564b3fa6403ffa11d1c/5fe2d564b3fa647a78a1222c_4-sao.png" alt="" class="bar__item-evaluate">
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="bar__item">
-                                <a class="bar__item-link" href="">
-                                    <img src="https://cdn.europosters.eu/image/750/posters/re-zero-key-art-i46586.jpg" alt="" class="bar__item-img">
-                                    <div class="bar__item-desc">
-                                        <b class="bar__item-name">Re:Zero</b>
-                                        <img src="http://static.ssphim.net/static/5fe2d564b3fa6403ffa11d1c/5fe2d564b3fa647a78a1222c_4-sao.png" alt="" class="bar__item-evaluate">
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="bar__item">
-                                <a class="bar__item-link" href="">
-                                    <img src="https://cdn.europosters.eu/image/750/posters/re-zero-key-art-i46586.jpg" alt="" class="bar__item-img">
-                                    <div class="bar__item-desc">
-                                        <b class="bar__item-name">Re:Zero</b>
-                                        <img src="http://static.ssphim.net/static/5fe2d564b3fa6403ffa11d1c/5fe2d564b3fa647a78a1222c_4-sao.png" alt="" class="bar__item-evaluate">
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="bar__item">
-                                <a class="bar__item-link" href="">
-                                    <img src="https://cdn.europosters.eu/image/750/posters/re-zero-key-art-i46586.jpg" alt="" class="bar__item-img">
-                                    <div class="bar__item-desc">
-                                        <b class="bar__item-name">Re:Zero</b>
-                                        <img src="http://static.ssphim.net/static/5fe2d564b3fa6403ffa11d1c/5fe2d564b3fa647a78a1222c_4-sao.png" alt="" class="bar__item-evaluate">
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="bar__item">
-                                <a class="bar__item-link" href="">
-                                    <img src="https://cdn.europosters.eu/image/750/posters/re-zero-key-art-i46586.jpg" alt="" class="bar__item-img">
-                                    <div class="bar__item-desc">
-                                        <b class="bar__item-name">Re:Zero</b>
-                                        <img src="http://static.ssphim.net/static/5fe2d564b3fa6403ffa11d1c/5fe2d564b3fa647a78a1222c_4-sao.png" alt="" class="bar__item-evaluate">
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="bar__item">
-                                <a class="bar__item-link" href="">
-                                    <img src="https://cdn.europosters.eu/image/750/posters/re-zero-key-art-i46586.jpg" alt="" class="bar__item-img">
-                                    <div class="bar__item-desc">
-                                        <b class="bar__item-name">Re:Zero</b>
-                                        <img src="http://static.ssphim.net/static/5fe2d564b3fa6403ffa11d1c/5fe2d564b3fa647a78a1222c_4-sao.png" alt="" class="bar__item-evaluate">
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="bar__item">
-                                <a class="bar__item-link" href="">
-                                    <img src="https://cdn.europosters.eu/image/750/posters/re-zero-key-art-i46586.jpg" alt="" class="bar__item-img">
-                                    <div class="bar__item-desc">
-                                        <b class="bar__item-name">Re:Zero</b>
-                                        <img src="http://static.ssphim.net/static/5fe2d564b3fa6403ffa11d1c/5fe2d564b3fa647a78a1222c_4-sao.png" alt="" class="bar__item-evaluate">
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="bar__item">
-                                <a class="bar__item-link" href="">
-                                    <img src="https://cdn.europosters.eu/image/750/posters/re-zero-key-art-i46586.jpg" alt="" class="bar__item-img">
-                                    <div class="bar__item-desc">
-                                        <b class="bar__item-name">Re:Zero</b>
-                                        <img src="http://static.ssphim.net/static/5fe2d564b3fa6403ffa11d1c/5fe2d564b3fa647a78a1222c_4-sao.png" alt="" class="bar__item-evaluate">
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="bar__item">
-                                <a class="bar__item-link" href="">
-                                    <img src="https://cdn.europosters.eu/image/750/posters/re-zero-key-art-i46586.jpg" alt="" class="bar__item-img">
-                                    <div class="bar__item-desc">
-                                        <b class="bar__item-name">Re:Zero</b>
-                                        <img src="http://static.ssphim.net/static/5fe2d564b3fa6403ffa11d1c/5fe2d564b3fa647a78a1222c_4-sao.png" alt="" class="bar__item-evaluate">
-                                    </div>
-                                </a>
-                            </li>
+
                         </ul>
 
                         <h3 class="bar__title mt">Phim Bộ Hot</h3>
                         <ul class="bar__list">
-                            <li class="bar__item">
-                                <a class="bar__item-link" href="">
-                                    <img src="https://cdn.europosters.eu/image/750/posters/re-zero-key-art-i46586.jpg" alt="" class="bar__item-img">
-                                    <div class="bar__item-desc">
-                                        <b class="bar__item-name">Re:Zero</b>
-                                        <img src="http://static.ssphim.net/static/5fe2d564b3fa6403ffa11d1c/5fe2d564b3fa647a78a1222c_4-sao.png" alt="" class="bar__item-evaluate">
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="bar__item">
-                                <a class="bar__item-link" href="">
-                                    <img src="https://cdn.europosters.eu/image/750/posters/re-zero-key-art-i46586.jpg" alt="" class="bar__item-img">
-                                    <div class="bar__item-desc">
-                                        <b class="bar__item-name">Re:Zero</b>
-                                        <img src="http://static.ssphim.net/static/5fe2d564b3fa6403ffa11d1c/5fe2d564b3fa647a78a1222c_4-sao.png" alt="" class="bar__item-evaluate">
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="bar__item">
-                                <a class="bar__item-link" href="">
-                                    <img src="https://cdn.europosters.eu/image/750/posters/re-zero-key-art-i46586.jpg" alt="" class="bar__item-img">
-                                    <div class="bar__item-desc">
-                                        <b class="bar__item-name">Re:Zero</b>
-                                        <img src="http://static.ssphim.net/static/5fe2d564b3fa6403ffa11d1c/5fe2d564b3fa647a78a1222c_4-sao.png" alt="" class="bar__item-evaluate">
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="bar__item">
-                                <a class="bar__item-link" href="">
-                                    <img src="https://cdn.europosters.eu/image/750/posters/re-zero-key-art-i46586.jpg" alt="" class="bar__item-img">
-                                    <div class="bar__item-desc">
-                                        <b class="bar__item-name">Re:Zero</b>
-                                        <img src="http://static.ssphim.net/static/5fe2d564b3fa6403ffa11d1c/5fe2d564b3fa647a78a1222c_4-sao.png" alt="" class="bar__item-evaluate">
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="bar__item">
-                                <a class="bar__item-link" href="">
-                                    <img src="https://cdn.europosters.eu/image/750/posters/re-zero-key-art-i46586.jpg" alt="" class="bar__item-img">
-                                    <div class="bar__item-desc">
-                                        <b class="bar__item-name">Re:Zero</b>
-                                        <img src="http://static.ssphim.net/static/5fe2d564b3fa6403ffa11d1c/5fe2d564b3fa647a78a1222c_4-sao.png" alt="" class="bar__item-evaluate">
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="bar__item">
-                                <a class="bar__item-link" href="">
-                                    <img src="https://cdn.europosters.eu/image/750/posters/re-zero-key-art-i46586.jpg" alt="" class="bar__item-img">
-                                    <div class="bar__item-desc">
-                                        <b class="bar__item-name">Re:Zero</b>
-                                        <img src="http://static.ssphim.net/static/5fe2d564b3fa6403ffa11d1c/5fe2d564b3fa647a78a1222c_4-sao.png" alt="" class="bar__item-evaluate">
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="bar__item">
-                                <a class="bar__item-link" href="">
-                                    <img src="https://cdn.europosters.eu/image/750/posters/re-zero-key-art-i46586.jpg" alt="" class="bar__item-img">
-                                    <div class="bar__item-desc">
-                                        <b class="bar__item-name">Re:Zero</b>
-                                        <img src="http://static.ssphim.net/static/5fe2d564b3fa6403ffa11d1c/5fe2d564b3fa647a78a1222c_4-sao.png" alt="" class="bar__item-evaluate">
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="bar__item">
-                                <a class="bar__item-link" href="">
-                                    <img src="https://cdn.europosters.eu/image/750/posters/re-zero-key-art-i46586.jpg" alt="" class="bar__item-img">
-                                    <div class="bar__item-desc">
-                                        <b class="bar__item-name">Re:Zero</b>
-                                        <img src="http://static.ssphim.net/static/5fe2d564b3fa6403ffa11d1c/5fe2d564b3fa647a78a1222c_4-sao.png" alt="" class="bar__item-evaluate">
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="bar__item">
-                                <a class="bar__item-link" href="">
-                                    <img src="https://cdn.europosters.eu/image/750/posters/re-zero-key-art-i46586.jpg" alt="" class="bar__item-img">
-                                    <div class="bar__item-desc">
-                                        <b class="bar__item-name">Re:Zero</b>
-                                        <img src="http://static.ssphim.net/static/5fe2d564b3fa6403ffa11d1c/5fe2d564b3fa647a78a1222c_4-sao.png" alt="" class="bar__item-evaluate">
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="bar__item">
-                                <a class="bar__item-link" href="">
-                                    <img src="https://cdn.europosters.eu/image/750/posters/re-zero-key-art-i46586.jpg" alt="" class="bar__item-img">
-                                    <div class="bar__item-desc">
-                                        <b class="bar__item-name">Re:Zero</b>
-                                        <img src="http://static.ssphim.net/static/5fe2d564b3fa6403ffa11d1c/5fe2d564b3fa647a78a1222c_4-sao.png" alt="" class="bar__item-evaluate">
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="bar__item">
-                                <a class="bar__item-link" href="">
-                                    <img src="https://cdn.europosters.eu/image/750/posters/re-zero-key-art-i46586.jpg" alt="" class="bar__item-img">
-                                    <div class="bar__item-desc">
-                                        <b class="bar__item-name">Re:Zero</b>
-                                        <img src="http://static.ssphim.net/static/5fe2d564b3fa6403ffa11d1c/5fe2d564b3fa647a78a1222c_4-sao.png" alt="" class="bar__item-evaluate">
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="bar__item">
-                                <a class="bar__item-link" href="">
-                                    <img src="https://cdn.europosters.eu/image/750/posters/re-zero-key-art-i46586.jpg" alt="" class="bar__item-img">
-                                    <div class="bar__item-desc">
-                                        <b class="bar__item-name">Re:Zero</b>
-                                        <img src="http://static.ssphim.net/static/5fe2d564b3fa6403ffa11d1c/5fe2d564b3fa647a78a1222c_4-sao.png" alt="" class="bar__item-evaluate">
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="bar__item">
-                                <a class="bar__item-link" href="">
-                                    <img src="https://cdn.europosters.eu/image/750/posters/re-zero-key-art-i46586.jpg" alt="" class="bar__item-img">
-                                    <div class="bar__item-desc">
-                                        <b class="bar__item-name">Re:Zero</b>
-                                        <img src="http://static.ssphim.net/static/5fe2d564b3fa6403ffa11d1c/5fe2d564b3fa647a78a1222c_4-sao.png" alt="" class="bar__item-evaluate">
-                                    </div>
-                                </a>
-                            </li>
+
                         </ul>
                         <h3 class="bar__title mt">Phim Bộ Hot</h3>
                         <div class="bar__tag">
@@ -477,7 +198,8 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script type="text/javascript" src="./js/api.js"></script>
-    <script type="text/javascript" src="./js/main.js"></script>
+    <script type="text/javascript" src="./js/slider.js"></script>
+    <script type="module" src="./js/mains.js"></script>
 </body>
 
 </html>

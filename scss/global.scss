@@ -111,9 +111,9 @@ li {
 // }
 @keyframes headerSubNav {
     from {
-        transform: scale(0);
+        max-height: 0;
     }
     to {
-        transform: scale(1);
+        max-height: 380px;
     }
 }
